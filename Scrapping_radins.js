@@ -1,8 +1,10 @@
 import puppeteer from 'puppeteer';
 import ExcelJS from 'exceljs';
 import { Resend } from 'resend';
+import dotenv from 'dotenv';
+dotenv.config();
 
-const resend = new Resend('re_bKumwk3f_LrQSFsFKgE8CuHrZeMeBECiH');
+const resend = new Resend(process.env.RESEND_TOKEN);
 
 const asciiArt = `
 \x1b[32m      _   _____  
