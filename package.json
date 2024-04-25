@@ -1,0 +1,23 @@
+{
+  "name": "npm-graber",
+  "version": "1.0.0",
+  "description": "Scrapping",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "main.js"
+  },
+  "author": "Ibrahima",
+  "license": "ISC",
+  "dependencies": {
+    "cli-loading-animation": "^1.0.6",
+    "exceljs": "^4.4.0",
+    "nodemailer": "^6.9.13",
+    "puppeteer": "^22.6.1",
+    "resend": "^3.2.0",
+    "smtp": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
