@@ -13,26 +13,17 @@ Ce script Node.js utilise Puppeteer pour faire du scrapping sur un site web de c
 
 1. Clonez le dépôt ou téléchargez les fichiers source.
 2. Installez les dépendances nécessaires avec npm :
-   ```bash
+   ````bash
    npm install 
 
 ## Configuration
 
 Créez un fichier `.env` à la racine de votre projet. Ajoutez la clé suivante dans le fichier `.env`:
-
-makefile
-
-Copy code
-
 `RESEND_TOKEN=votre_token_resend` 
 
 ## Utilisation
 
 Pour exécuter le script, lancez la commande suivante depuis le terminal :
-
-bash
-
-Copy code
 
 `node nom_du_fichier.js` 
 
