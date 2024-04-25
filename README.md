@@ -14,7 +14,7 @@ Ce script Node.js utilise Puppeteer pour faire du scrapping sur un site web de c
 1. Clonez le dépôt ou téléchargez les fichiers source.
 2. Installez les dépendances nécessaires avec npm :
    ```bash
-   npm install`` 
+   npm install 
 
 ## Configuration
 
